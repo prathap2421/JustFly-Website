@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Rubik";
+    src: url(../assests/fonts/Rubik/static/Rubik-Regular.ttf);
+}
 
+@font-face {
+    font-family: 'Rubikbold';
+    src: url(../assests/fonts/Rubik/static/Rubik-ExtraBold.ttf);
+}
 :root {
 
     --primary-bg-color: #FFFFFF;
@@ -14,15 +22,7 @@
     --secondary-text: 'Rubikbold'
 }
 
-@font-face {
-    font-family: "Rubik";
-    src: url(../assests/fonts/Rubik/static/Rubik-Regular.ttf);
-}
 
-@font-face {
-    font-family: 'Rubikbold';
-    src: url(../assests/fonts/Rubik/static/Rubik-ExtraBold.ttf);
-}
 
 a:link,
 a:visited {
