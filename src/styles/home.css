@@ -1085,9 +1085,9 @@ form {
 /*  */
 
 .get-quote {
-    background-image: url(../assests/images/Home/Rectangle\ 18.svg);
-    width: 1200px;
-    height: 384px;
+    background-color: var(--btn-color);
+    /* width: 1200px;
+    height: 384px; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
